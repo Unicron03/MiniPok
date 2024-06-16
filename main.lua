@@ -53,6 +53,7 @@ end
 
 function love.load()
     -- Chargement des ressources
+    love.window.setIcon(love.image.newImageData("assets/icon.png"))
 
     math.randomseed(os.time())
     
